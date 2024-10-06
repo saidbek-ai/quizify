@@ -13,45 +13,50 @@ import ProtectedRoute from "./features/auth/ProtectedRoute";
 import Profile from "./pages/Profile";
 import Blogs from "./pages/Blogs";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Main />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/profile",
+      element: (
+        <ProtectedRoute>
+          <Profile />
+        </ProtectedRoute>
+      ),
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/blogs",
+      element: <Blogs />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/login",
+      element: <Login />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/quiz",
+      element: (
+        <ProtectedRoute>
+          <Quiz />
+        </ProtectedRoute>
+      ),
+      errorElement: <ErrorPage />,
+      children: [
+        { element: <QuizList />, index: true },
+        { path: "questions", element: <QuizQuestions /> },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <Main />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/profile",
-    element: (
-      <ProtectedRoute>
-        <Profile />
-      </ProtectedRoute>
-    ),
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/blogs",
-    element: <Blogs />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/login",
-    element: <Login />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/quiz",
-    element: (
-      <ProtectedRoute>
-        <Quiz />
-      </ProtectedRoute>
-    ),
-    errorElement: <ErrorPage />,
-    children: [
-      { element: <QuizList />, index: true },
-      { path: "questions", element: <QuizQuestions /> },
-    ],
-  },
-]);
+    basename: "/quizify",
+  }
+);
 
 function App() {
   return (
