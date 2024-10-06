@@ -1,0 +1,398 @@
+{
+  "testTitle": "English Vocabulary Level Test",
+  "testDescription": "This test will help you determine your current English vocabulary level.",
+  "type": "vocabulary",
+  "questions": [
+    {
+      "level": "Beginner",
+      "question": "What is the meaning of 'apple'?",
+      "options": {
+        "A": "A type of fruit",
+        "B": "A piece of furniture",
+        "C": "A type of drink",
+        "D": "A type of car"
+      },
+      "correctAnswer": "A",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "Which of the following is a synonym for 'small'?",
+      "options": {
+        "A": "Big",
+        "B": "Tiny",
+        "C": "Loud",
+        "D": "Fast"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "What is the meaning of 'dog'?",
+      "options": {
+        "A": "A type of plant",
+        "B": "A piece of clothing",
+        "C": "An animal",
+        "D": "A type of building"
+      },
+      "correctAnswer": "C",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "Which of the following is a synonym for 'happy'?",
+      "options": {
+        "A": "Sad",
+        "B": "Joyful",
+        "C": "Angry",
+        "D": "Tired"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "What is the meaning of 'cat'?",
+      "options": {
+        "A": "A piece of furniture",
+        "B": "An animal",
+        "C": "A type of food",
+        "D": "A type of transportation"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "Which of the following is a synonym for 'fast'?",
+      "options": {
+        "A": "Quick",
+        "B": "Slow",
+        "C": "Heavy",
+        "D": "Weak"
+      },
+      "correctAnswer": "A",
+      "points": 1
+    },
+    {
+      "level": "Elementary",
+      "question": "What is the meaning of 'blue'?",
+      "options": {
+        "A": "A color",
+        "B": "A type of drink",
+        "C": "A kind of animal",
+        "D": "A piece of clothing"
+      },
+      "correctAnswer": "A",
+      "points": 1
+    },
+    {
+      "level": "Elementary",
+      "question": "Which of the following is a synonym for 'cold'?",
+      "options": {
+        "A": "Hot",
+        "B": "Chilly",
+        "C": "Warm",
+        "D": "Fast"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    },
+    {
+      "level": "Elementary",
+      "question": "What is the meaning of 'water'?",
+      "options": {
+        "A": "A type of liquid",
+        "B": "A type of plant",
+        "C": "A type of food",
+        "D": "A piece of furniture"
+      },
+      "correctAnswer": "A",
+      "points": 1
+    },
+    {
+      "level": "Elementary",
+      "question": "Which of the following is a synonym for 'strong'?",
+      "options": {
+        "A": "Weak",
+        "B": "Powerful",
+        "C": "Tiny",
+        "D": "Quiet"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    },
+    {
+      "level": "Elementary",
+      "question": "What is the meaning of 'house'?",
+      "options": {
+        "A": "A type of animal",
+        "B": "A type of building",
+        "C": "A type of vehicle",
+        "D": "A type of food"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    },
+    {
+      "level": "Elementary",
+      "question": "Which of the following is a synonym for 'dark'?",
+      "options": {
+        "A": "Bright",
+        "B": "Dim",
+        "C": "Colorful",
+        "D": "Warm"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    },
+    {
+      "level": "Pre-Intermediate",
+      "question": "What is the meaning of 'genuine'?",
+      "options": {
+        "A": "Fake",
+        "B": "Authentic",
+        "C": "Old",
+        "D": "New"
+      },
+      "correctAnswer": "B",
+      "points": 2
+    },
+    {
+      "level": "Pre-Intermediate",
+      "question": "Which of the following is a synonym for 'complicated'?",
+      "options": {
+        "A": "Simple",
+        "B": "Easy",
+        "C": "Complex",
+        "D": "Dull"
+      },
+      "correctAnswer": "C",
+      "points": 2
+    },
+    {
+      "level": "Pre-Intermediate",
+      "question": "What is the meaning of 'purchase'?",
+      "options": {
+        "A": "To sell something",
+        "B": "To buy something",
+        "C": "To borrow something",
+        "D": "To give away something"
+      },
+      "correctAnswer": "B",
+      "points": 2
+    },
+    {
+      "level": "Pre-Intermediate",
+      "question": "Which of the following is a synonym for 'brief'?",
+      "options": {
+        "A": "Long",
+        "B": "Short",
+        "C": "Detailed",
+        "D": "Confusing"
+      },
+      "correctAnswer": "B",
+      "points": 2
+    },
+    {
+      "level": "Pre-Intermediate",
+      "question": "What is the meaning of 'content'?",
+      "options": {
+        "A": "Happy",
+        "B": "Sad",
+        "C": "Angry",
+        "D": "Worried"
+      },
+      "correctAnswer": "A",
+      "points": 2
+    },
+    {
+      "level": "Pre-Intermediate",
+      "question": "Which of the following is a synonym for 'frequently'?",
+      "options": {
+        "A": "Never",
+        "B": "Rarely",
+        "C": "Often",
+        "D": "Seldom"
+      },
+      "correctAnswer": "C",
+      "points": 2
+    },
+    {
+      "level": "Intermediate",
+      "question": "What is the meaning of 'affect'?",
+      "options": {
+        "A": "To influence",
+        "B": "To ignore",
+        "C": "To stop",
+        "D": "To increase"
+      },
+      "correctAnswer": "A",
+      "points": 2
+    },
+    {
+      "level": "Intermediate",
+      "question": "Which of the following is a synonym for 'essential'?",
+      "options": {
+        "A": "Unimportant",
+        "B": "Necessary",
+        "C": "Optional",
+        "D": "Secondary"
+      },
+      "correctAnswer": "B",
+      "points": 2
+    },
+    {
+      "level": "Intermediate",
+      "question": "What is the meaning of 'maintain'?",
+      "options": {
+        "A": "To destroy",
+        "B": "To preserve",
+        "C": "To forget",
+        "D": "To lose"
+      },
+      "correctAnswer": "B",
+      "points": 2
+    },
+    {
+      "level": "Intermediate",
+      "question": "Which of the following is a synonym for 'approach'?",
+      "options": {
+        "A": "Ignore",
+        "B": "Avoid",
+        "C": "Advance",
+        "D": "Retreat"
+      },
+      "correctAnswer": "C",
+      "points": 2
+    },
+    {
+      "level": "Intermediate",
+      "question": "What is the meaning of 'gather'?",
+      "options": {
+        "A": "To collect",
+        "B": "To scatter",
+        "C": "To ignore",
+        "D": "To decrease"
+      },
+      "correctAnswer": "A",
+      "points": 2
+    },
+    {
+      "level": "Intermediate",
+      "question": "Which of the following is a synonym for 'challenge'?",
+      "options": {
+        "A": "Easy task",
+        "B": "Problem",
+        "C": "Solution",
+        "D": "Hobby"
+      },
+      "correctAnswer": "B",
+      "points": 2
+    },
+    {
+      "level": "Intermediate",
+      "question": "What is the meaning of 'adapt'?",
+      "options": {
+        "A": "To change to fit a new situation",
+        "B": "To remain the same",
+        "C": "To eliminate",
+        "D": "To control"
+      },
+      "correctAnswer": "A",
+      "points": 2
+    },
+    {
+      "level": "Intermediate",
+      "question": "Which of the following is a synonym for 'significant'?",
+      "options": {
+        "A": "Minor",
+        "B": "Important",
+        "C": "Irrelevant",
+        "D": "Trivial"
+      },
+      "correctAnswer": "B",
+      "points": 2
+    },
+    {
+      "level": "Advanced",
+      "question": "What is the meaning of 'quixotic'?",
+      "options": {
+        "A": "Practical",
+        "B": "Idealistic",
+        "C": "Realistic",
+        "D": "Cynical"
+      },
+      "correctAnswer": "B",
+      "points": 3
+    },
+    {
+      "level": "Advanced",
+      "question": "Which of the following is a synonym for 'sagacious'?",
+      "options": {
+        "A": "Foolish",
+        "B": "Wise",
+        "C": "Ignorant",
+        "D": "Stubborn"
+      },
+      "correctAnswer": "B",
+      "points": 3
+    },
+    {
+      "level": "Advanced",
+      "question": "What is the meaning of 'obfuscate'?",
+      "options": {
+        "A": "Clarify",
+        "B": "Confuse",
+        "C": "Simplify",
+        "D": "Organize"
+      },
+      "correctAnswer": "B",
+      "points": 3
+    },
+    {
+      "level": "Advanced",
+      "question": "Which of the following is a synonym for 'perfunctory'?",
+      "options": {
+        "A": "Thorough",
+        "B": "Careless",
+        "C": "Meticulous",
+        "D": "Deliberate"
+      },
+      "correctAnswer": "B",
+      "points": 3
+    },
+    {
+      "level": "Advanced",
+      "question": "What is the meaning of 'ineffable'?",
+      "options": {
+        "A": "Able to be described",
+        "B": "Inexpressible",
+        "C": "Unimportant",
+        "D": "Ordinary"
+      },
+      "correctAnswer": "B",
+      "points": 3
+    },
+    {
+      "level": "Advanced",
+      "question": "Which of the following is a synonym for 'intransigent'?",
+      "options": {
+        "A": "Flexible",
+        "B": "Stubborn",
+        "C": "Agreeable",
+        "D": "Compromising"
+      },
+      "correctAnswer": "B",
+      "points": 3
+    }
+  ],
+  "scoring": [
+    { "score": "0-6", "level": "Beginner" },
+    { "score": "7-12", "level": "Elementary" },
+    { "score": "13-18", "level": "Pre-Intermediate" },
+    { "score": "19-24", "level": "Intermediate" },
+    { "score": "25-30", "level": "Advanced" }
+  ]
+}

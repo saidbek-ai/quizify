@@ -1,0 +1,358 @@
+{
+  "testTitle": "English Grammar Level Test",
+  "testDescription": "This test will help you determine your current English grammar level.",
+  "type": "grammar",
+  "questions": [
+    {
+      "level": "Beginner",
+      "question": "She * a doctor.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "am",
+        "D": "be"
+      },
+      "correctAnswer": "A",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "We * to the park every weekend.",
+      "options": {
+        "A": "go",
+        "B": "goes",
+        "C": "going",
+        "D": "went"
+      },
+      "correctAnswer": "A",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "He * to school yesterday.",
+      "options": {
+        "A": "goes",
+        "B": "went",
+        "C": "going",
+        "D": "gone"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "I * a book right now.",
+      "options": {
+        "A": "read",
+        "B": "am reading",
+        "C": "reading",
+        "D": "reads"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "They * tired after the long trip.",
+      "options": {
+        "A": "is",
+        "B": "am",
+        "C": "are",
+        "D": "be"
+      },
+      "correctAnswer": "C",
+      "points": 1
+    },
+    {
+      "level": "Elementary",
+      "question": "She * her homework before dinner yesterday.",
+      "options": {
+        "A": "finishes",
+        "B": "finished",
+        "C": "is finishing",
+        "D": "finish"
+      },
+      "correctAnswer": "B",
+      "points": 2
+    },
+    {
+      "level": "Elementary",
+      "question": "I * breakfast when the phone rang.",
+      "options": {
+        "A": "ate",
+        "B": "was eating",
+        "C": "eating",
+        "D": "am eating"
+      },
+      "correctAnswer": "B",
+      "points": 2
+    },
+    {
+      "level": "Elementary",
+      "question": "They * in this city for 10 years.",
+      "options": {
+        "A": "live",
+        "B": "are living",
+        "C": "have lived",
+        "D": "lives"
+      },
+      "correctAnswer": "C",
+      "points": 2
+    },
+    {
+      "level": "Elementary",
+      "question": "She * be here by 8 PM.",
+      "options": {
+        "A": "should",
+        "B": "can",
+        "C": "must",
+        "D": "would"
+      },
+      "correctAnswer": "A",
+      "points": 2
+    },
+    {
+      "level": "Elementary",
+      "question": "The book * by J.K. Rowling.",
+      "options": {
+        "A": "written",
+        "B": "was written",
+        "C": "write",
+        "D": "was writing"
+      },
+      "correctAnswer": "B",
+      "points": 2
+    },
+    {
+      "level": "Pre-intermediate",
+      "question": "By the time he arrived, we * the movie.",
+      "options": {
+        "A": "finish",
+        "B": "finished",
+        "C": "had finished",
+        "D": "have finished"
+      },
+      "correctAnswer": "C",
+      "points": 3
+    },
+    {
+      "level": "Pre-intermediate",
+      "question": "If I * rich, I would travel the world.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "am",
+        "D": "been"
+      },
+      "correctAnswer": "B",
+      "points": 3
+    },
+    {
+      "level": "Pre-intermediate",
+      "question": "He said he * to the party yesterday.",
+      "options": {
+        "A": "goes",
+        "B": "had gone",
+        "C": "has gone",
+        "D": "went"
+      },
+      "correctAnswer": "B",
+      "points": 3
+    },
+    {
+      "level": "Pre-intermediate",
+      "question": "You * help him if you had known.",
+      "options": {
+        "A": "would have",
+        "B": "have",
+        "C": "had",
+        "D": "would"
+      },
+      "correctAnswer": "A",
+      "points": 3
+    },
+    {
+      "level": "Pre-intermediate",
+      "question": "We * working here since 2015.",
+      "options": {
+        "A": "are",
+        "B": "have been",
+        "C": "were",
+        "D": "been"
+      },
+      "correctAnswer": "B",
+      "points": 3
+    },
+    {
+      "level": "Intermediate",
+      "question": "He suggested * early to avoid traffic.",
+      "options": {
+        "A": "leave",
+        "B": "left",
+        "C": "leaving",
+        "D": "to leave"
+      },
+      "correctAnswer": "C",
+      "points": 4
+    },
+    {
+      "level": "Intermediate",
+      "question": "I wish I * the test.",
+      "options": {
+        "A": "passed",
+        "B": "pass",
+        "C": "had passed",
+        "D": "passing"
+      },
+      "correctAnswer": "C",
+      "points": 4
+    },
+    {
+      "level": "Intermediate",
+      "question": "I * the project before the deadline.",
+      "options": {
+        "A": "finish",
+        "B": "am finishing",
+        "C": "will have finished",
+        "D": "finished"
+      },
+      "correctAnswer": "C",
+      "points": 4
+    },
+    {
+      "level": "Intermediate",
+      "question": "He will call you as soon as he * home.",
+      "options": {
+        "A": "gets",
+        "B": "will get",
+        "C": "getting",
+        "D": "got"
+      },
+      "correctAnswer": "A",
+      "points": 4
+    },
+    {
+      "level": "Intermediate",
+      "question": "If I had known, I * you earlier.",
+      "options": {
+        "A": "would tell",
+        "B": "would have told",
+        "C": "told",
+        "D": "tell"
+      },
+      "correctAnswer": "B",
+      "points": 4
+    },
+    {
+      "level": "Advanced",
+      "question": "It’s high time you * a decision.",
+      "options": {
+        "A": "made",
+        "B": "make",
+        "C": "making",
+        "D": "makes"
+      },
+      "correctAnswer": "A",
+      "points": 5
+    },
+    {
+      "level": "Advanced",
+      "question": "No sooner * he left than it started raining.",
+      "options": {
+        "A": "has",
+        "B": "had",
+        "C": "have",
+        "D": "was"
+      },
+      "correctAnswer": "B",
+      "points": 5
+    },
+    {
+      "level": "Advanced",
+      "question": "I * to see you for a long time.",
+      "options": {
+        "A": "hasn’t been",
+        "B": "won’t be",
+        "C": "haven’t been",
+        "D": "haven’t seen"
+      },
+      "correctAnswer": "D",
+      "points": 5
+    },
+    {
+      "level": "Advanced",
+      "question": "He acts as if he * the boss.",
+      "options": {
+        "A": "is",
+        "B": "were",
+        "C": "been",
+        "D": "was"
+      },
+      "correctAnswer": "B",
+      "points": 5
+    },
+    {
+      "level": "Advanced",
+      "question": "Had I known you were coming, I * a cake.",
+      "options": {
+        "A": "would bake",
+        "B": "will bake",
+        "C": "would have baked",
+        "D": "baked"
+      },
+      "correctAnswer": "C",
+      "points": 5
+    },
+    {
+      "level": "Advanced",
+      "question": "The book, * pages were missing, was a gift.",
+      "options": {
+        "A": "who",
+        "B": "whose",
+        "C": "that",
+        "D": "which"
+      },
+      "correctAnswer": "B",
+      "points": 5
+    },
+    {
+      "level": "Advanced",
+      "question": "She * the project by the time you arrive.",
+      "options": {
+        "A": "will finish",
+        "B": "will have finished",
+        "C": "finished",
+        "D": "finishes"
+      },
+      "correctAnswer": "B",
+      "points": 5
+    }
+  ],
+  "scoring": [
+    {
+      "score": "0-6",
+      "level": "Beginner",
+      "description": "Basic understanding of English grammar; struggles with simple tenses and structures."
+    },
+    {
+      "score": "7-12",
+      "level": "Elementary",
+      "description": "Able to use basic grammar correctly; understands present and past tenses but has issues with more complex forms."
+    },
+    {
+      "score": "13-18",
+      "level": "Pre-Intermediate",
+      "description": "Good grasp of common grammatical structures; can use various tenses but may confuse some forms."
+    },
+    {
+      "score": "19-24",
+      "level": "Intermediate",
+      "description": "Solid understanding of English grammar; can use a range of tenses accurately and handle conditional forms."
+    },
+    {
+      "score": "25-30",
+      "level": "Advanced",
+      "description": "Excellent command of English grammar; able to use complex structures and tenses with confidence."
+    }
+  ]
+}

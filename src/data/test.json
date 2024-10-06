@@ -1,0 +1,77 @@
+{
+  "testTitle": "Test",
+  "testDescription": "This test helps to check fucntionality of test model and application it's created for developers",
+  "type": "vocabulary",
+  "questions": [
+    {
+      "level": "Beginner",
+      "question": "What is the meaning of 'apple'?",
+      "options": {
+        "A": "A type of fruit",
+        "B": "A piece of furniture",
+        "C": "A type of drink",
+        "D": "A type of car"
+      },
+      "correctAnswer": "A",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "Which of the following is a synonym for 'small'?",
+      "options": {
+        "A": "Big",
+        "B": "Tiny",
+        "C": "Loud",
+        "D": "Fast"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "What is the meaning of 'dog'?",
+      "options": {
+        "A": "A type of plant",
+        "B": "A piece of clothing",
+        "C": "An animal",
+        "D": "A type of building"
+      },
+      "correctAnswer": "C",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "Which of the following is a synonym for 'happy'?",
+      "options": {
+        "A": "Sad",
+        "B": "Joyful",
+        "C": "Angry",
+        "D": "Tired"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    },
+    {
+      "level": "Beginner",
+      "question": "What is the meaning of 'cat'?",
+      "options": {
+        "A": "A piece of furniture",
+        "B": "An animal",
+        "C": "A type of food",
+        "D": "A type of transportation"
+      },
+      "correctAnswer": "B",
+      "points": 1
+    }
+  ],
+  "scoring": [
+    {
+      "score": "0-6",
+      "level": "Beginner"
+    },
+    { "score": "7-12", "level": "Elementary" },
+    { "score": "13-18", "level": "Pre-Intermediate" },
+    { "score": "19-24", "level": "Intermediate" },
+    { "score": "25-30", "level": "Advanced" }
+  ]
+}
