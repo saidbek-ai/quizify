@@ -1,28 +1,31 @@
-import { useState } from "react";
+import { FaAngleRight } from "react-icons/fa6";
+import defaultImg from "../assets/blog.jpeg";
+import { Link } from "react-router-dom";
 
-const BlogCard = ({ title, img }) => {
-  const [hover, setHover] = useState(false);
-
-  console.log(hover);
-
+const BlogCard = ({ title, img, id }) => {
   return (
-    <div
-      className=" w-full relative drop-shadow-md shadow-md rou"
-      onMouseOverCapture={() => setHover(true)}
-      onMouseOut={() => setHover(false)}
-    >
+    <div className="w-full flex flex-col rounded-md shadow-md ">
       <img
-        src={img}
+        src={img ? img : defaultImg}
         alt=""
-        className="size-full object-cover object-center rounded-md"
+        className=" rounded-t-md w-full h-1/2 object-fit object-center object-cover"
       />
-      <h3
-        className={`absolute bottom-0 left-0 right-0 text-md px-2 py-2 text-teal-700 shadow-xl bg-white/60 backdrop-blur-sm  text-center rounded-b-md md:${
-          hover ? "inline" : "hidden"
-        }`}
-      >
-        {title}
-      </h3>
+
+      <div className="p-4 text-teal-700 flex flex-col gap-4 ">
+        <h3 className="text-xl font-semibold capitalize ">
+          {title.slice(0, 55) + "..."}
+        </h3>
+        <p className="text-sm">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aperiam
+          sapiente earum?
+        </p>
+        <Link
+          to={`/blogs/${id}`}
+          className="flex justify-center items-center gap-2 font-semibold text-sm p-2 border border-teal-700  rounded-md mt-4"
+        >
+          READ MORE <FaAngleRight className="" />
+        </Link>
+      </div>
     </div>
   );
 };

@@ -12,6 +12,7 @@ import Login from "./pages/Login";
 import ProtectedRoute from "./features/auth/ProtectedRoute";
 import Profile from "./pages/Profile";
 import Blogs from "./pages/Blogs";
+import Blog from "./pages/Blog";
 
 const router = createBrowserRouter(
   [
@@ -32,6 +33,11 @@ const router = createBrowserRouter(
     {
       path: "/blogs",
       element: <Blogs />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/blogs/:id",
+      element: <Blog />,
       errorElement: <ErrorPage />,
     },
     {

@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* contentStyles.css */
+.styled-content {
+  @apply leading-6 m-1.5 text-teal-700;
+}
+
+.styled-content h1 {
+  @apply text-2xl font-bold mb-3;
+}
+
+.styled-content h2 {
+  @apply text-xl font-semibold mb-2;
+}
+.styled-content h3 {
+  @apply text-lg mb-1.5;
+}
+
+.styled-content p {
+  @apply mb-3 text-justify;
+}
+
+.styled-content ul,
+.styled-content ol {
+  @apply ml-5;
+}
+
+.styled-content img {
+  @apply max-w-full h-auto;
+}
+
+.styled-content a {
+  @apply text-teal-900 no-underline cursor-pointer hover:underline;
+}
+
+/* Additional styles for blockquotes */
+.styled-content blockquote {
+  @apply text-teal-700 border-l-8 border-teal-700 bg-teal-100 py-3 pl-2 rounded-md;
+}
