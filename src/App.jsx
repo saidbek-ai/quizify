@@ -13,6 +13,7 @@ import ProtectedRoute from "./features/auth/ProtectedRoute";
 import Profile from "./pages/Profile";
 import Blogs from "./pages/Blogs";
 import Blog from "./pages/Blog";
+import DocEditor from "./pages/DocEditor";
 
 const router = createBrowserRouter(
   [
@@ -29,6 +30,14 @@ const router = createBrowserRouter(
         </ProtectedRoute>
       ),
       errorElement: <ErrorPage />,
+    },
+    {
+      path: "/writing-plygnd",
+      element: (
+        <ProtectedRoute>
+          <DocEditor />,
+        </ProtectedRoute>
+      ),
     },
     {
       path: "/blogs",
@@ -58,10 +67,10 @@ const router = createBrowserRouter(
         { path: "questions", element: <QuizQuestions /> },
       ],
     },
-  ],
-  {
-    basename: "/quizify",
-  }
+  ]
+  // {
+  //   basename: "/quizify",
+  // }
 );
 
 function App() {

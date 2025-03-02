@@ -43,6 +43,12 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           className={({ isActive }) => navLinkStyle(isActive)}
+          to={"/writing-plygnd"}
+        >
+          Writing
+        </NavLink>
+        <NavLink
+          className={({ isActive }) => navLinkStyle(isActive)}
           to={"/quiz"}
         >
           Quizes
