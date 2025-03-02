@@ -67,10 +67,10 @@ const router = createBrowserRouter(
         { path: "questions", element: <QuizQuestions /> },
       ],
     },
-  ]
-  // {
-  //   basename: "/quizify",
-  // }
+  ],
+  {
+    basename: "/quizify",
+  }
 );
 
 function App() {
