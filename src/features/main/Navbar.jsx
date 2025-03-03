@@ -35,6 +35,9 @@ const Navbar = () => {
           menu ? "flex" : "hidden"
         } absolute w-full md:w-auto top-0 right-0 left-0 md:static text-sm md:flex flex-col justify-center items-center gap-2 md:flex-row text-white bg-teal-700 md:text-teal-700 md:bg-white p-16 md:p-0 rounded-md border md:border-0 z-30`}
       >
+        <NavLink className={({ isActive }) => navLinkStyle(isActive)} to={"/"}>
+          Main
+        </NavLink>
         <NavLink
           className={({ isActive }) => navLinkStyle(isActive)}
           to={"/profile"}

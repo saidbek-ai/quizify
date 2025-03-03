@@ -66,7 +66,7 @@ const DocGenerator = ({ htmlContent, wordCount, writingData }) => {
       .save();
   };
 
-  console.log(username);
+  // console.log(username);
 
   return (
     <div className="">

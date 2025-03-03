@@ -1,6 +1,6 @@
 import BlogCard from "../../components/BlogCard";
 import { Link } from "react-router-dom";
-import { blogs } from "../../pages/Blogs";
+import blogs from "../../data/blogs/blogs";
 
 const Blogs = () => {
   return (
@@ -9,7 +9,7 @@ const Blogs = () => {
         {" "}
         Popular <span className="text-orange-400">Blogs</span>
       </h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 box-content h-full w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 md:gap-6 box-content h-full w-full">
         {blogs.slice(0, 4).map((blog, i) => (
           <BlogCard key={i} id={i} {...blog} />
         ))}

@@ -3,7 +3,7 @@ import grammarTest from "./../data/grammar.json";
 import vocabularyTest from "./../data/vocabulary.json";
 import testData from "./../data/test.json";
 
-const tests = [grammarTest, vocabularyTest, testData];
+const tests = [grammarTest, vocabularyTest];
 
 const QuizList = () => {
   console.log(tests);
