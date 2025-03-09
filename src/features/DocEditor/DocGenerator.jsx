@@ -1,7 +1,6 @@
 // import { useState } from "react";
 import html2pdf from "html2pdf.js";
 import { useSelector } from "react-redux";
-import { username } from "../auth/autSlice";
 
 const DocGenerator = ({ htmlContent, wordCount, writingData }) => {
   // const [pdfUrl, setPdfUrl] = useState("");
@@ -20,7 +19,7 @@ const DocGenerator = ({ htmlContent, wordCount, writingData }) => {
         u { text-decoration: underline; }
         blockquote { font-style: italic; background: #f9f9f9; padding: 10px; border-left: 5px solid #ccc; }
       </style>
-      <div style="padding: 16px; margin-bottom: 20px;">
+      <div style="padding: 46px; margin-bottom: 20px;">
       <span style="font-size: 10px;">formatted by @saidbekxudayberdiyev</span>
         <div style=" border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
         

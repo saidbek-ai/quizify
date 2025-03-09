@@ -31,6 +31,7 @@ const BlogCard = ({ title, image, id, subtitle }) => {
         <p className="text-sm">{limitWord(subtitleWordsLimit, subtitle)}</p>
         <Link
           to={`/blogs/${id}`}
+          onClick={() => scrollTo(0, 0)}
           className="flex justify-center items-center gap-2 font-semibold text-sm p-2 border border-teal-700  rounded-md mt-4"
         >
           READ MORE <FaAngleRight className="" />

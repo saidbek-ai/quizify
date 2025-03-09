@@ -17,6 +17,7 @@ const Blogs = () => {
       <div className="text-center mt-8">
         <Link
           to={"/blogs"}
+          onClick={() => scrollTo(0, 0)}
           className="text-teal-700  py-2 px-4 rounded-md font-semibold border border-transparent hover:border-teal-700"
         >
           Show more...
